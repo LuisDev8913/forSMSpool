@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap);
 * {
   padding: 0px;
   margin: 0px;
@@ -631,7 +632,7 @@ body.dark-mode .navbar-mode label:before {
 }
 
 .btn-green {
-  background-color: #34a086;
+  background-color: #339f85;
   min-width: 170px;
 }
 
@@ -726,7 +727,7 @@ body.dark-mode .navbar-mode label:before {
 }
 
 .title-section span.green {
-  color: #34a086;
+  color: #339f85;
 }
 
 /* --Hero Section--- */
@@ -788,7 +789,7 @@ body.dark-mode .navbar-mode label:before {
   display: block;
   margin-bottom: 14px;
 }
-.hero__img .top h4, .hero__img .bottom h4 {
+.hero__img .top h2, .hero__img .bottom h2 {
   color: #202125;
   font-size: 15px;
   font-style: normal;
@@ -976,7 +977,7 @@ body.dark-mode .navbar-mode label:before {
   .hero__info {
     max-width: 310px;
   }
-  .hero__img .top h4, .hero__img .bottom h4 {
+  .hero__img .top h2, .hero__img .bottom h2 {
     font-size: 13px;
   }
   .hero__img .hero__img-left {
