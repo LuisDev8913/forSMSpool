@@ -875,7 +875,7 @@ body.dark-mode .navbar-mode label:before {
   max-width: 584px;
 }
 
-.hero__info h2 {
+.hero__info h1 {
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
@@ -955,7 +955,7 @@ body.dark-mode .navbar-mode label:before {
 }
 
 @media (max-width: 1180px) {
-  .hero__info h2 {
+  .hero__info h1 {
     font-size: 28px;
   }
   .hero .brands .d-grid img {
@@ -1067,8 +1067,9 @@ body.dark-mode .navbar-mode label:before {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .hero__info h2 {
+  .hero__info h1 {
     margin-bottom: 20px;
+    font-size: 25px;
   }
   .hero {
     padding-top: 90px;
