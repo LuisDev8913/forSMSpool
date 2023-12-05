@@ -434,6 +434,11 @@ body.light-mode {
   background-position: right 300px !important;
   background-size: contain !important;
 }
+@media (max-width: 46.31125em) {
+  body.light-mode {
+    background: #FAFAFA;
+  }
+}
 
 body.dark-mode {
   background: #202125 url("../img/bg-ellipse-dark.svg");
@@ -441,6 +446,11 @@ body.dark-mode {
   background-position: right 300px !important;
   background-size: contain !important;
   color: #FEFEFE;
+}
+@media (max-width: 46.31125em) {
+  body.dark-mode {
+    background: #202125;
+  }
 }
 body.dark-mode .btn-outline {
   color: #FEFEFE;
@@ -452,7 +462,7 @@ body.dark-mode .btn-outline:hover {
 body.dark-mode .header._header-scroll {
   background-color: rgba(47, 47, 47, 0.8);
 }
-body.dark-mode h2, body.dark-mode h4, body.dark-mode h3, body.dark-mode p,
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h4, body.dark-mode h3, body.dark-mode p,
 body.dark-mode .anonymously-section h3.title-section,
 body.dark-mode .steps-left .search-item h4,
 body.dark-mode .features-section .features-item h2,
@@ -461,7 +471,7 @@ body.dark-mode footer.footer span,
 body.dark-mode footer.footer a,
 body.dark-mode .title-section,
 body.dark-mode .steps-section .steps-left h2.title-section,
-body.dark-mode .hero__img .top h4, body.dark-mode .hero__img .bottom h4,
+body.dark-mode .hero__img .top h2, body.dark-mode .hero__img .bottom h2,
 body.dark-mode .hero__img .hero__img-right .bottom span,
 body.dark-mode .login-link,
 body.dark-mode .lang-block {
@@ -1041,7 +1051,7 @@ body.dark-mode .navbar-mode label:before {
   }
   .hero__img-mobile {
     display: block;
-    margin-bottom: 31px;
+    margin-bottom: 35px;
   }
   .hero__img-mobile .hero__img .hero__img-right {
     position: relative;
@@ -1069,11 +1079,11 @@ body.dark-mode .navbar-mode label:before {
             flex-direction: column;
   }
   .hero__info h1 {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     font-size: 25px;
   }
   .hero {
-    padding-top: 90px;
+    padding-top: 100px;
   }
   .hero__info .d-flex a.btn {
     margin-bottom: 14px;
