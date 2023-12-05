@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap);
 * {
   padding: 0px;
   margin: 0px;
@@ -1696,7 +1695,7 @@ body.dark-mode .navbar-mode label:before {
 }
 
 .link-register {
-  color: #6088FF;
+  color: #224ABE;
   text-align: center;
   font-size: 14px;
   font-style: normal;
