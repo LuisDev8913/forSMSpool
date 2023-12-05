@@ -351,7 +351,7 @@
         }
         getSelectElementContent(selectOption) {
             const selectOptionData = selectOption.dataset.asset ? `${selectOption.dataset.asset}` : "";
-            const selectOptionDataHTML = selectOptionData.indexOf("img") >= 0 ? `<img src="${selectOptionData}" alt="">` : selectOptionData;
+            const selectOptionDataHTML = selectOptionData.indexOf("img") >= 0 ? `<img src="${selectOptionData}" alt="smspool" width="17" height="17">` : selectOptionData;
             let selectOptionContentHTML = ``;
             selectOptionContentHTML += selectOptionData ? `<span class="${this.selectClasses.classSelectRow}">` : "";
             selectOptionContentHTML += selectOptionData ? `<span class="${this.selectClasses.classSelectData}">` : "";
